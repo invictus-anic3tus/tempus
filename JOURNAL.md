@@ -5,7 +5,7 @@ description: "A flashy, powerful ESP32-based smartwatch"
 created_at: "2025-07-21"
 ---
 
-## total time: 5 hrs
+## total time: 12 hrs
 
 # firstly
 i want to thank everybody at hack club who's making this possible. if you don't know, hack club is a 100% 501(c)(3) nonprofit run by zach latta + friends made for coders and electronics peoples 18 and under. this project is made possible through their highway to undercity program, where teens are empowered to build their dreams with up to $350 in funding!
@@ -47,3 +47,9 @@ today i copied more of the schematic. I'm using a THT USB-C 2.0 instead of a mic
 <img width="3507" height="2480" alt="schem" src="https://github.com/user-attachments/assets/5b4ca8c9-016a-49ea-9ac5-6f03e77c019f" />
 
 #### 2.5 hrs
+
+### days four through six - july 24 - 26
+
+these days I just worked on copying the schematic more. I added an RTC clock, a gyroscope, and other miscellaneous items, and I started work on the display. It's going to take a ton of GPIOs, and I hope I'll have enough without having to use an IO expander!
+
+#### 7 hrs total
