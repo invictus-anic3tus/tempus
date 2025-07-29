@@ -5,7 +5,7 @@ description: "A flashy, powerful ESP32-based smartwatch"
 created_at: "2025-07-21"
 ---
 
-## total time: 12 hrs
+## total time: 17 hrs
 
 # firstly
 i want to thank everybody at hack club who's making this possible. if you don't know, hack club is a 100% 501(c)(3) nonprofit run by zach latta + friends made for coders and electronics peoples 18 and under. this project is made possible through their highway to undercity program, where teens are empowered to build their dreams with up to $350 in funding!
@@ -53,3 +53,17 @@ today i copied more of the schematic. I'm using a THT USB-C 2.0 instead of a mic
 these days I just worked on copying the schematic more. I added an RTC clock, a gyroscope, and other miscellaneous items, and I started work on the display. It's going to take a ton of GPIOs, and I hope I'll have enough without having to use an IO expander!
 
 #### 7 hrs total
+
+### day seven - july 27
+
+uh oh. today i realized that i built the entire display part of the schematic around a display without a touchscreen! i had to delete it, do more research to find an actual touchscreen, and replace it. All in all it wasn't too difficult, though. I found the new display on <https://buydisplay.com>, which seems to be a fairly legit Chinese display seller. I did a bunch of PCB work too!
+
+#### 2 hrs
+
+### day eight - july 28
+
+ok welp yesterday was kinda useless. Turns out when you make a circle in Kicad for the board outline, you're defining the radius, not the diameter like I'm used to in f360. Basically i made the watch 4x as big as it should be and the entire pcb has to be scrapped. Now normally this would be devastating, especially with the july 31st highway deadline. However, I've decided to submit it for [Grounded](https://grounded.hackclub.com) instead! The grounded deadline is _August_ 31st, meaning I have an entire extra month to make this thing. I also decided that instead of a round display like I found yesterday, I'm gonna try to find a square display with rounded corners, since I think they look better. I deleted everything in the PCB, which, by the way, I had just completed, and reimported from the schematic.
+
+I have a few minor changes in mind, such as removing the RTC battery and just using the one lipo battery, and I was informed that I need a pullup resistor on GPIO0 and a schottky diode to prevent current backflow from the battery to the USB port. I also have to connect both D+ and D-'s of the usb receptacle, and I might remove the 3.3V -> 3V voltage converter for the display backlight. We'll see!
+
+#### 3 hrs
