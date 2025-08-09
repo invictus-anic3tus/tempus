@@ -67,3 +67,9 @@ ok welp yesterday was kinda useless. Turns out when you make a circle in Kicad f
 I have a few minor changes in mind, such as removing the RTC battery and just using the one lipo battery, and I was informed that I need a pullup resistor on GPIO0 and a schottky diode to prevent current backflow from the battery to the USB port. I also have to connect both D+ and D-'s of the usb receptacle, and I might remove the 3.3V -> 3V voltage converter for the display backlight. We'll see!
 
 #### 3 hrs
+
+### day nine - august 8
+
+i added the changes i said on day eight, and did a few more. I added four programmable buttons and some other stuff, and nearly finished routing the PCB! (again).
+
+more later :D
