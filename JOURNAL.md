@@ -5,7 +5,7 @@ description: "A flashy, powerful ESP32-based smartwatch"
 created_at: "2025-07-21"
 ---
 
-## total time: 17 hrs
+## total time: 21.5 hrs
 
 # firstly
 i want to thank everybody at hack club who's making this possible. if you don't know, hack club is a 100% 501(c)(3) nonprofit run by zach latta + friends made for coders and electronics peoples 18 and under. this project is made possible through their highway to undercity program, where teens are empowered to build their dreams with up to $350 in funding!
@@ -68,8 +68,18 @@ I have a few minor changes in mind, such as removing the RTC battery and just us
 
 #### 3 hrs
 
-### day nine - august 8
+### days nine and ten - august 8 and 9
 
 i added the changes i said on day eight, and did a few more. I added four programmable buttons and some other stuff, and nearly finished routing the PCB! (again).
 
-more later :D
+But an image is worth a thousand words, so here's four images: (worth 4000 words?)
+
+<img width="3507" height="2480" alt="image" src="https://github.com/user-attachments/assets/0d37bfdb-3327-4199-82ad-d05d227fe8f3" />
+
+<img width="732" height="904" alt="image" src="https://github.com/user-attachments/assets/54a393f8-e590-47af-ba16-e93667cbc47b" />
+
+<img width="732" height="904" alt="image" src="https://github.com/user-attachments/assets/cb417de8-099e-47fd-80dc-a1067f50dd50" />
+
+<img width="1201" height="845" alt="image" src="https://github.com/user-attachments/assets/2766d74c-a07d-405d-ac24-4768ca8c79cf" />
+
+#### 4.5 hrs total
