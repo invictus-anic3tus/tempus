@@ -1,11 +1,11 @@
 ---
-title: "Tempus32"
+title: "Vial"
 author: "Anicetus"
 description: "A flashy, powerful ESP32-based smartwatch"
 created_at: "2025-07-21"
 ---
 
-## total time: 21.5 hrs
+## total time: 24.5 hrs
 
 # firstly
 i want to thank everybody at hack club who's making this possible. if you don't know, hack club is a 100% 501(c)(3) nonprofit run by zach latta + friends made for coders and electronics peoples 18 and under. this project is made possible through their highway to undercity program, where teens are empowered to build their dreams with up to $350 in funding!
@@ -83,3 +83,9 @@ But an image is worth a thousand words, so here's four images: (worth 4000 words
 <img width="1201" height="845" alt="image" src="https://github.com/user-attachments/assets/2766d74c-a07d-405d-ac24-4768ca8c79cf" />
 
 #### 4.5 hrs total
+
+### day eleven - september 1
+
+phew! that was a big gap! i've been doing a lot of work on [my drone](https://github.com/invictus-anic3tus/v4) and haven't had much time for this. But today I added a silkscreen and finished routing! pics tmrw probably :3
+
+#### 3 hrs
