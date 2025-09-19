@@ -5,7 +5,7 @@ description: "A flashy, powerful ESP32-based smartwatch"
 created_at: "2025-07-21"
 ---
 
-## total time: 24.5 hrs
+## total time: 31 hrs
 
 # firstly
 i want to thank everybody at hack club who's making this possible. if you don't know, hack club is a 100% 501(c)(3) nonprofit run by zach latta + friends made for coders and electronics peoples 18 and under. this project is made possible through their highway to undercity program, where teens are empowered to build their dreams with up to $350 in funding!
@@ -89,3 +89,30 @@ But an image is worth a thousand words, so here's four images: (worth 4000 words
 phew! that was a big gap! i've been doing a lot of work on [my drone](https://github.com/invictus-anic3tus/v4) and haven't had much time for this. But today I added a silkscreen and finished routing! pics tmrw probably :3
 
 #### 3 hrs
+
+### day twelve - september 17
+
+today i did a ton of stuff trying to figure out adding a speaker to the watch in place of the buzzer!!!!!!!! had a bit of a standstill trying to figure out how to implement a digital pot but i think i'll get it eventually
+
+#### 1.5 hrs
+
+### day thirteen - september 18
+
+welp just realized i cant do the speaker cuz im out of gpios and there's no room for an io expander 😭
+but thats ok, i might find a way to connect it to bluetooth headphones? anyway i did add a microphone though! That was very informative, but i'm not sure how well its gonna work cuz it'll be all but covered up by the case. ig i'll figure it out. i'm proud of how much work i did today--i also added two more layers and rerouted the spi and i2c lines to help de-clutter stuff.
+
+<img width="1176" height="793" alt="image" src="https://github.com/user-attachments/assets/da73fff6-c1b6-4884-8ef5-6a2c254850e9" />
+
+<img width="600" height="740" alt="image" src="https://github.com/user-attachments/assets/0627fcd7-337d-4066-b5ea-b3bae7bfe98e" />
+
+<img width="589" height="745" alt="image" src="https://github.com/user-attachments/assets/5a8a2a3b-5941-41a0-a960-595f8624ff43" />
+
+#### 3 hrs
+
+### day fourteen - september 19
+
+today i finalized positioning the mic and DRC + silkscreen fixing. I reorganized the schematic a bunch so now it's super pretty :3
+
+<img width="997" height="687" alt="image" src="https://github.com/user-attachments/assets/c7d70bf5-669e-4cc6-8a34-29093493035f" />
+
+#### 2 hrs
