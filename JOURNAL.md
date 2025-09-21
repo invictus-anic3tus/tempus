@@ -5,7 +5,7 @@ description: "A flashy, powerful ESP32-based smartwatch"
 created_at: "2025-07-21"
 ---
 
-## total time: 31 hrs
+## total time: 34 hrs
 
 # firstly
 i want to thank everybody at hack club who's making this possible. if you don't know, hack club is a 100% 501(c)(3) nonprofit run by zach latta + friends made for coders and electronics peoples 18 and under. this project is made possible through their highway to undercity program, where teens are empowered to build their dreams with up to $350 in funding!
@@ -116,3 +116,9 @@ today i finalized positioning the mic and DRC + silkscreen fixing. I reorganized
 <img width="997" height="687" alt="image" src="https://github.com/user-attachments/assets/c7d70bf5-669e-4cc6-8a34-29093493035f" />
 
 #### 2 hrs
+
+### day fifteen - september 20
+
+today i made a good lookin readme and got my production files and did a bunch trying to get my BOM from Kicad but it's sooooooo tedious holy cow
+
+#### 3 hrs
