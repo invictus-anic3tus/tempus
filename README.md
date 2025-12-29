@@ -39,7 +39,7 @@ Speaking of features, this watch is equipped with the following:
 - An RTC (Real Time Clock) chip capable of maintaining incredibly accurate time
 - A passive buzzer, capable of playing simple melodies and making beeps and alarms
 - A microphone for voice messaging or reminders. (Note: the watch doesn't have a speaker, so playing music, receiving calls, etc. must be done through headphones connected to a phone connected to the watch. Also, unfortunately the ESP32-S3 cannot be used as a microphone during calls, so for that you'll need to use your phone's built-in mic.)
-- Four reprogrammable buttons on all sides of the watch, perfect for quick text replies, controlling music, or navigating to apps.
+- Two reprogrammable buttons, perfect for quick text replies, controlling music, or navigating to apps.
 - A modern USB-C charging and programming recepticle
 - A battery percentage monitor to ensure the watch never dies
 - A 1.28" capacitive touch display
@@ -54,29 +54,9 @@ Nerd info incoming
 - Microphone: SPH0645LM4H
 - Display: [1.28 inch 240x240 IPS TFT LCD Round Circle Capacitive Touch Screen](https://www.ebay.com/itm/305668452899?var=604666595108)
 - USB: USB-C 2.0 16P
-- Main 3v3 Voltage Converter: LM1117DT-3.3
+- Main 3v3 Buck-Boost Converter: TPS63031
 
 ## Bill of Materials
-
-### Self-Assemble
-
-```
-Note: two parts on the watch are incredibly, incredibly difficult to hand-solder: the microphone and gyroscope. This means that if you choose to hand-solder the watch and you can't solder these, you cannot access the features these chips provide. If you'd like to, you can get one-sided PCBA instead, and choose either to use the microphone or gyroscope. Also note that this thing has a ton of lil tiny capacitors and stuff so be warned.
-```
-
-### Grand Self-Assemble Total: $xxxxx
-
-|    Item   |  Price  |                           Link                            | Shipping |
-|-----------|---------|-----------------------------------------------------------|----------|
-| PCB       | ~$8     | <https://jlcpcb.com>                                      | $0       |
-| PCB Parts | ~$30    | <https://jlcpcb.com>                                      | ~$8      |
-| Screen    | $11.19  | <https://www.ebay.com/itm/305668452899?var=604666595108>  | $15      |
-| Battery   | $5.92   | <https://www.aliexpress.us/item/3256808031709894.html>    | $0       |
-| Total     | $       |                                                           | $        |
-
-### PCBA
-
-#### Grand PCBA Total: $145.11
 
 |   Item  |  Price  |                           Link                            | Shipping |
 |---------|---------|-----------------------------------------------------------|----------|
