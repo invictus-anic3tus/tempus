@@ -30,7 +30,9 @@
 
 ## About
 
-The Tempus is a small yet powerful ESP32 devboard PCB, equipped with all the features that a modern digital smartwatch would need. Fully able to track steps and gestures, voice text, make beeps and alerts with a buzzer, power a round touchscreen, and, of course, tell time, it's the ideal replacement for a multi-hundred-dollar smartwatch with the same features.
+My name is Anicetus, and I love hardware. The Anicept Tempus is my newest addition to my brand, and the first devboard PCB! There are others out there, and many are probably much better. But I felt it was high time I had one of my _own._ It might not beat the competition in price, features, quality, you name it; but there comes a certain satisfaction when you can wear (more like tout at this point) a semi-stylish, functional, and helpful item that you can point to and confidently say: "I created this from scratch."
+
+And so, the Tempus is a small yet powerful ESP32 devboard PCB, equipped with all the features that a modern digital smartwatch would need. Fully able to track steps and gestures, voice text, make beeps and alerts with a buzzer, power a round touchscreen, and, of course, tell time, it's the ideal replacement for a multi-hundred-dollar smartwatch with the same features.
 
 ## Features
 
