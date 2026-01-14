@@ -61,13 +61,13 @@ Nerd info incoming
 
 ## Bill of Materials
 
-|   Item  |  Price  |                           Link                            | Shipping |
-|---------|---------|-----------------------------------------------------------|----------|
-| PCB     | ~$8     | <https://jlcpcb.com>                                      | $0       |
-| PCBA    | ~$65    | <https://jlcpcb.com>                                      | ~$40     |
-| Screen  | $11.19  | <https://www.ebay.com/itm/305668452899?var=604666595108>  | $15      |
-| Battery | $5.92   | <https://www.aliexpress.us/item/3256808031709894.html>    | $0       |
-| Total   | $90.11  |                                                           | $55      |
+|     Item      |  Price  |                                         Link                                      | Shipping |
+|---------------|---------|-----------------------------------------------------------------------------------|----------|
+| PCB + Stencil | ~$8     | <https://pcbway.com> / <https://jlcpcb.com>                                       | $10      |
+| Components    | ~$30    | <https://lcsc.com> / <https://digikey.com>                                        | ~$20     |
+| Screen        | $11.19  | <https://www.ebay.com/itm/305668452899?var=604666595108>                          | $15      |
+| Battery       | ~$8     | <https://www.digikey.com/en/products/detail/adafruit-industries-llc/1578/5054539> | $0       |
+| Total         | $56.19  |                                                                                   | $45      |
 
 ## Contributing
 
