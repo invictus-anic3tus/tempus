@@ -1,8 +1,10 @@
+
 <div align="center" width=100%>
 
-  <img width="1543" height="957" alt="Untitled (4)" src="https://github.com/user-attachments/assets/282a7487-9ff5-4923-9643-2de0d0509032" />
+  ![Tempus Title Image](https://github.com/user-attachments/assets/8ff0b6ed-382e-4ab1-a680-015a6d90c699#gh-dark-mode-only)
 
-  
+  ![Tempus Title Image](https://github.com/user-attachments/assets/55e69d57-5103-4176-8eda-3a325154d405#gh-light-mode-only)
+
   <p display="inline">
 
   <a href="https://creativecommons.org/licenses/by-nc/4.0/"><img src="https://licensebuttons.net/l/by-nc/4.0/88x31.png" alt="Creative Commons Attribution-NonCommercial 4.0 International License"></a><a href="https://hackclub.com/"><img alt="Funded by Hack Club" src="https://img.shields.io/badge/Hack_Club-Funded-ec3750?style=for-the-badge&logo=hackclub&logoColor=ec3750"></img></a>
@@ -32,7 +34,7 @@
 
 My name is Anicetus, and I love hardware. The Anicept Tempus is my newest addition to my brand, and the first devboard PCB! There are others out there, and many are probably much better. But I felt it was high time I had one of my _own._ It might not beat the competition in price, features, quality, you name it; but there comes a certain satisfaction when you can wear (more like tout at this point) a semi-stylish, functional, and helpful item that you can point to and confidently say: "I created this from scratch."
 
-And so, the Tempus is a small yet powerful ESP32 devboard PCB, equipped with all the features that a modern digital smartwatch would need. Fully able to track steps and gestures, voice text, make beeps and alerts with a buzzer, power a round touchscreen, and, of course, tell time, it's the ideal replacement for a multi-hundred-dollar smartwatch with the same features.
+And so, the Tempus is a small yet powerful ESP32 devboard PCB + case, equipped with all the features that a modern digital smartwatch would need. Fully able to track steps and gestures, voice text, make beeps and alerts with a buzzer, power a round touchscreen, and, of course, tell time, it's the ideal replacement for a multi-hundred-dollar smartwatch with the same features.
 
 ## Features
 
@@ -40,10 +42,11 @@ Speaking of features, this watch is equipped with the following:
 - A precise, quick gyroscope/accelerometer for hand tracking
 - WiFi and Bluetooth for connecting to your phone to receive texts and calls, as well as control music apps such as Spotify
 - An RTC (Real Time Clock) chip capable of maintaining incredibly accurate time
-- A passive buzzer, capable of playing simple melodies and making beeps and alarms
+- A vibration motor for alerts and ringtones
 - A microphone for voice messaging or reminders. (Note: the watch doesn't have a speaker, so playing music, receiving calls, etc. must be done through headphones connected to a phone connected to the watch. Also, unfortunately the ESP32-S3 cannot be used as a microphone during calls, so for that you'll need to use your phone's built-in mic.)
 - Two reprogrammable buttons, perfect for quick text replies, controlling music, or navigating to apps.
 - A modern USB-C charging and programming recepticle
+- A 500mAh battery, to ensure minimal charging time
 - A battery percentage monitor to ensure the watch never dies
 - A 1.28" capacitive touch display
 
@@ -63,11 +66,13 @@ Nerd info incoming
 
 |     Item      |  Price  |                                         Link                                      | Shipping |
 |---------------|---------|-----------------------------------------------------------------------------------|----------|
-| PCB + Stencil | ~$8     | <https://pcbway.com> / <https://jlcpcb.com>                                       | $10      |
-| Components    | ~$30    | <https://lcsc.com> / <https://digikey.com>                                        | ~$20     |
-| Screen        | $11.19  | <https://www.ebay.com/itm/305668452899?var=604666595108>                          | $15      |
+| PCB           | ~$2     | <https://jlcpcb.com>                                                              | $4       |
+| Components    | ~$54    | <https://digikey.com>                                                             | ~$7      |
+| Screen        | $8.85   | <https://www.ebay.com/itm/305668452899?var=604666595108>                          | $8.12    |
 | Battery       | ~$8     | <https://www.digikey.com/en/products/detail/adafruit-industries-llc/1578/5054539> | $0       |
-| Total         | $56.19  |                                                                                   | $45      |
+| Total         | ~$72.85 |                                                                                   | ~$19.12  |
+
+### Grand Total: ~$91.97
 
 ## Contributing
 
