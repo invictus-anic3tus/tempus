@@ -54,25 +54,27 @@ Speaking of features, this watch is equipped with the following:
 
 Nerd info incoming
 - Main processor: ESP32-S3-Wroom-1
-- Gyroscope/accelerometer: LSM6DSO32
-- RTC: DS3231M
-- Battery Charging: TP4056-42
-- Microphone: SPH0645LM4H
+- Gyroscope/accelerometer: LSM6DSMTR
+- RTC: DS3231M+
+- Battery Charging: TPB4056B (A drop-in TP4056 replacement, available on DigiKey)
+- Microphone: SPH0645LM4H-B
 - Display: [1.28 inch 240x240 IPS TFT LCD Round Circle Capacitive Touch Screen](https://www.ebay.com/itm/305668452899?var=604666595108)
 - USB: USB-C 2.0 16P
-- Main 3v3 Buck-Boost Converter: TPS63031
+- Main 3v3 Buck-Boost Converter: TPS63031DSKR
 
 ## Bill of Materials
 
-|     Item      |  Price  |                                         Link                                      | Shipping |
-|---------------|---------|-----------------------------------------------------------------------------------|----------|
-| PCB           | ~$2     | <https://jlcpcb.com>                                                              | $4       |
-| Components    | ~$54    | <https://digikey.com>                                                             | ~$7      |
-| Screen        | $8.85   | <https://www.ebay.com/itm/305668452899?var=604666595108>                          | $8.12    |
-| Battery       | ~$8     | <https://www.digikey.com/en/products/detail/adafruit-industries-llc/1578/5054539> | $0       |
-| Total         | ~$72.85 |                                                                                   | ~$19.12  |
+|       Item       |  Price  |                                         Link                                      | Shipping |
+|------------------|---------|-----------------------------------------------------------------------------------|----------|
+| PCB              | $2      | <https://jlcpcb.com>                                                              | $3.18    |
+| Components+Wire* | $47.14  | <https://digikey.com>                                                             | $6.99    |
+| Screen           | $8.85   | <https://www.ebay.com/itm/305668452899?var=604666595108>                          | $8.12    |
+| Battery          | $7.95   | <https://www.digikey.com/en/products/detail/adafruit-industries-llc/1578/5054539> | $0**     |
+| Total            | $65.94  |                                                                                   | $18.29   |
+*Including subjective tariffs, taxes, etc.
+**Included with DigiKey cart
 
-### Grand Total: ~$91.97
+### Grand Total: $84.23, ±taxes
 
 ## Contributing
 
