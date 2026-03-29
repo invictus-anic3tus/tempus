@@ -50,6 +50,26 @@ Speaking of features, this watch is equipped with the following:
 - A battery percentage monitor to ensure the watch never dies
 - A 1.28" capacitive touch display
 
+## How do I build this?
+
+Good question! If you'd like to make the Tempus for yourself, there's a few things you should keep in mind:
+1. You must have access to a 3D printer or be willing to pay for a printing service. TPU or another flexible filament is required for the watch band.
+2. You must have access to soldering equipment and be skilled in soldering. This includes a hot air gun and solder paste.
+3. This design necessitates a custom PCB. These can get expensive if you need to account for shipping or tariff costs.
+4. This is _not_ a professional design! I'm a random guy from the internet who made a smartwatch design; if you want to make it for yourself, go ahead! But I am not responsible for any misuse or unintended happenings due to faulty design.
+5. Commercial use is not allowed. You cannot make this watch to sell to anybody.
+
+Alright! Now we can get into how to actually build it. First, download the gerber.zip file in the PCB_Production folder, go to your favorite PCB manufacturing service (JLCPCB and PCBWay are good) and upload it in their quote system. It should say four-layer PCB. Here are the settings to select:
+(Make sure you know what you're doing before changing these! The color is self-explanatory, but colors other than green can be more expensive.)
+
+![JLCPCB settings](https://cdn.hackclub.com/019d3b94-c724-726a-873b-5d1cd7a48551/Screenshot%202026-03-29%20165027.png)
+
+Then, order the DigiKey parts in [this cart](https://www.digikey.com/short/2mbbn5n0) and the screen from [BuyDisplay](https://www.buydisplay.com/1-28-inch-tft-lcd-display-240x240-round-circle-screen-for-smart-watch) or [eBay](https://www.ebay.com/itm/305668452899?var=604666595108).
+
+Next, 3D print the files in the CAD folder. Detailed assembly instructions coming soon; for now, please reference the full CAD design!
+
+![Wiring](https://cdn.hackclub.com/019d3bb2-d63f-7f48-a17c-6b90a8c8f6fe/Tempus%20Wiring%20Diagram.png)
+
 ## Specifications
 
 Nerd info incoming
@@ -61,18 +81,22 @@ Nerd info incoming
 - Display: [1.28 inch 240x240 IPS TFT LCD Round Circle Capacitive Touch Screen](https://www.buydisplay.com/1-28-inch-tft-lcd-display-240x240-round-circle-screen-for-smart-watch)
 - Main 3v3 Buck-Boost Converter: TPS63031DSKR
 
+![PCB](https://cdn.hackclub.com/019d3ba3-0f56-7da4-9f31-285cc6056e66/Screenshot%202026-03-29%20170708.png)
+
 ## Bill of Materials
 
 |       Item       |  Price  |                                                  Link                                              | Shipping |
 |------------------|---------|----------------------------------------------------------------------------------------------------|----------|
 | PCB              | $2      | <https://jlcpcb.com>                                                                               | $3.18    |
-| Digikey Parts*   | $57.31  | <https://digikey.com>                                                                              | $6.99    |
+| DigiKey Parts*   | $57.74  | <https://www.digikey.com/short/2mbbn5n0>                                                           | $6.99    |
 | Screen           | $8.85   | <https://www.buydisplay.com/1-28-inch-tft-lcd-display-240x240-round-circle-screen-for-smart-watch> | $8.12    |
-| Total            | $68.16  |                                                                                                    | $18.29   |
+| Total            | $68.59  |                                                                                                    | $18.29   |
 
 *Including subjective tariffs, taxes, etc. Also includes battery.
 
-### Grand Total: ±$86.45
+An online DigiKey cart is available at <https://www.digikey.com/short/2mbbn5n0>.
+
+### Grand Total: ±$86.88
 
 (Recommended planned price: $94)
 

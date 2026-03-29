@@ -1,12 +1,5 @@
-This is completely totally AI generated code since i can't code for the life of me
-
-have fun
-
-it's for arduino ide if that wasn't clear already
+I'm very bad at coding, but I used Claude (💀) as a tool to make this code. It's for Arduino IDE, so upload the Anicept_Tempus file, and use the .ino file for downloading the code onto the board. It should work, I'm pretty sure?
 
 
 
-
-
-
-<sub>it <i>should</i> work?</sub>
+Ahhhh i can't code ;-;
