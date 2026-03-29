@@ -45,7 +45,7 @@ Speaking of features, this watch is equipped with the following:
 - A vibration motor for alerts and ringtones
 - A microphone for voice messaging or reminders. (Note: the watch doesn't have a speaker, so playing music, receiving calls, etc. must be done through headphones connected to a phone connected to the watch. Also, unfortunately the ESP32-S3 cannot be used as a microphone during calls, so for that you'll need to use your phone's built-in mic.)
 - Two reprogrammable buttons, perfect for quick text replies, controlling music, or navigating to apps.
-- A modern USB-C charging and programming recepticle
+- A modern USB-C 2.0 charging and programming recepticle
 - A 500mAh battery, to ensure minimal charging time
 - A battery percentage monitor to ensure the watch never dies
 - A 1.28" capacitive touch display
@@ -58,23 +58,23 @@ Nerd info incoming
 - RTC: DS3231M+
 - Battery Charging: TPB4056B (A drop-in TP4056 replacement, available on DigiKey)
 - Microphone: SPH0645LM4H-B
-- Display: [1.28 inch 240x240 IPS TFT LCD Round Circle Capacitive Touch Screen](https://www.ebay.com/itm/305668452899?var=604666595108)
-- USB: USB-C 2.0 16P
+- Display: [1.28 inch 240x240 IPS TFT LCD Round Circle Capacitive Touch Screen](https://www.buydisplay.com/1-28-inch-tft-lcd-display-240x240-round-circle-screen-for-smart-watch)
 - Main 3v3 Buck-Boost Converter: TPS63031DSKR
 
 ## Bill of Materials
 
-|       Item       |  Price  |                                         Link                                      | Shipping |
-|------------------|---------|-----------------------------------------------------------------------------------|----------|
-| PCB              | $2      | <https://jlcpcb.com>                                                              | $3.18    |
-| Components+Wire* | $47.14  | <https://digikey.com>                                                             | $6.99    |
-| Screen           | $8.85   | <https://www.ebay.com/itm/305668452899?var=604666595108>                          | $8.12    |
-| Battery          | $7.95   | <https://www.digikey.com/en/products/detail/adafruit-industries-llc/1578/5054539> | $0**     |
-| Total            | $65.94  |                                                                                   | $18.29   |
-*Including subjective tariffs, taxes, etc.
-**Included with DigiKey cart
+|       Item       |  Price  |                                                  Link                                              | Shipping |
+|------------------|---------|----------------------------------------------------------------------------------------------------|----------|
+| PCB              | $2      | <https://jlcpcb.com>                                                                               | $3.18    |
+| Digikey Parts*   | $57.31  | <https://digikey.com>                                                                              | $6.99    |
+| Screen           | $8.85   | <https://www.buydisplay.com/1-28-inch-tft-lcd-display-240x240-round-circle-screen-for-smart-watch> | $8.12    |
+| Total            | $68.16  |                                                                                                    | $18.29   |
 
-### Grand Total: $84.23, ±taxes
+*Including subjective tariffs, taxes, etc. Also includes battery.
+
+### Grand Total: ±$86.45
+
+(Recommended planned price: $94)
 
 ## Contributing
 
