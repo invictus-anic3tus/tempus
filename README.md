@@ -88,17 +88,17 @@ Nerd info incoming
 |       Item       |  Price  |                                                  Link                                              | Shipping |
 |------------------|---------|----------------------------------------------------------------------------------------------------|----------|
 | PCB              | $2      | <https://jlcpcb.com>                                                                               | $3.18    |
-| DigiKey Parts*   | $57.74  | <https://www.digikey.com/short/2mbbn5n0>                                                           | $6.99    |
+| DigiKey Parts*   | $67.34  | <https://www.digikey.com/short/2mbbn5n0>                                                           | $6.99    |
 | Screen           | $8.85   | <https://www.buydisplay.com/1-28-inch-tft-lcd-display-240x240-round-circle-screen-for-smart-watch> | $8.12    |
-| Total            | $68.59  |                                                                                                    | $18.29   |
+| Total            | $78.19  |                                                                                                    | $18.29   |
 
-*Including subjective tariffs, taxes, etc. Also includes battery.
+*Including subjective tariffs, taxes, etc. Also includes battery and solder paste.
 
 An online DigiKey cart is available at <https://www.digikey.com/short/2mbbn5n0>.
 
-### Grand Total: ±$86.88
+### Grand Total: ±$96.48
 
-(Recommended planned price: $94)
+(Recommended planned price: $100)
 
 ## Contributing
 
