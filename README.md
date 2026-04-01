@@ -81,6 +81,8 @@ Nerd info incoming
 - Display: [1.28 inch 240x240 IPS TFT LCD Round Circle Capacitive Touch Screen](https://www.buydisplay.com/1-28-inch-tft-lcd-display-240x240-round-circle-screen-for-smart-watch)
 - Main 3v3 Buck-Boost Converter: TPS63031DSKR
 
+<img width="2339" height="1654" alt="Tempus Schematic-1" src="https://github.com/user-attachments/assets/1e344aa1-6e48-44ea-a64e-23e705c609ef" />
+
 ![PCB](https://cdn.hackclub.com/019d3ba3-0f56-7da4-9f31-285cc6056e66/Screenshot%202026-03-29%20170708.png)
 
 ## Bill of Materials
